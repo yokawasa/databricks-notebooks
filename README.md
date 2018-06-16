@@ -7,6 +7,7 @@ Collection of Sample Databricks Spark Notebooks ( mostly for Azure Databricks )
 
 | Notebook | Description | Lang
 | ------------- | ------------- | ----------- |
+| [File Operations Sample](notebooks/file-operations-python.ipynb) | Various file operations sample such as Azure Blob Storage mount & umount, ls/rm/cp/mv, read CSV file, etc| Python |    
 | [ELT Sample: Azure Blob Stroage - Databricks - CosmosDB](notebooks/elt-blob-storage-cosmosdb-python.ipynb)| In this notebook, you extract data from Azure Blob Storage into Databricks cluster, run transformations on the data in Databricks cluster, and then load the transformed data into Azure Cosmos DB | Python |
 | [ELT Sample: Azure Blob Stroage - Databricks - SQLDW](notebooks/elt-blob-storage-sqldw-python.ipynb) | In this notebook, you extract data from Azure Blob Storage into Databricks cluster, run transformations on the data in Databricks cluster, and then load the transformed data into Azure SQL Data Warehouse | Python |
 | [Streaming Sample: Cosmos DB ChangeFeed - Databricks](notebooks/tweet-streaming-cosmosdb-python.ipynb) | The purpose of this notebook is to showcase reading storing a live stream of tweets into Cosmos DB and using Apache Spark to read the Cosmos DB's Change Feed | Python |
